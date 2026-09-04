@@ -175,9 +175,7 @@ class _FoodDetailScreenState extends State<FoodDetailScreen> {
                       RichText(
                         text: TextSpan(
                           style: const TextStyle(
-                            // fontSize: 20,
                             fontFamily: "Baloo",
-                            // color: Colors.black,
                             fontWeight: FontWeight.bold,
                           ),
                           children: <TextSpan>[
@@ -186,7 +184,6 @@ class _FoodDetailScreenState extends State<FoodDetailScreen> {
                               style: const TextStyle(
                                 fontSize: 30,
                                 color: Colors.black,
-                                // fontWeight: FontWeight.bold,
                               ),
                             ),
                             const TextSpan(
@@ -230,13 +227,11 @@ class _FoodDetailScreenState extends State<FoodDetailScreen> {
                       fontSize: 16,
                     ),
                     numLines: 2,
-                    // textKey: Key('readMoreText'),
                     readMoreText: 'Lire Plus',
                     readLessText: 'Lire Moins',
                     readMoreTextStyle: TextStyle(
                       fontWeight: FontWeight.bold,
                       color: red,
-                      // fontSize: 16,
                     ),
                     readLessIcon: Icon(Icons.keyboard_arrow_up, color: red),
                     readMoreIcon: Icon(Icons.keyboard_arrow_down, color: red),

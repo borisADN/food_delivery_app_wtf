@@ -16,10 +16,9 @@ class _MainScreenState extends State<MainScreen> {
   int _currentIndex = 0;
   final List<Widget> _screens = [
     HomeScreen(),
-    Scaffold(),
-    Scaffold(),
+    Scaffold(body: Center(child: Text("Favoris"))),
     ProfileScreen(),
-    Scaffold(),
+    Scaffold(body: Center(child: Text("Panier"))),
   ];
   @override
   Widget build(BuildContext context) {
@@ -68,10 +67,6 @@ class _MainScreenState extends State<MainScreen> {
                 ),
               ],
             ),
-            // _buildNavItems(Icons.search, "Search", 1),
-            // _buildNavItems(Icons.add, "Add", 2),
-            // _buildNavItems(Icons.message, "Message", 3),
-            // _buildNavItems(Icons.person, "Profile", 4),
           ],
         ),
       ),
